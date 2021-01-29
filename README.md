@@ -16,8 +16,6 @@ provide a useful setup. Most of my projects are deployed to Heroku, so this is o
 - Runs under docker-compose by default, with a PostgreSQL and Redis instance (configured as a cache and session
   backend).
 - Can also run outside of docker-compose using SQLite, for when you aren't using Postgres-specific features yet.
-- Other things I'm forgetting now.
-
 
 ## Installation
 

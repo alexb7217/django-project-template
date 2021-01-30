@@ -23,7 +23,7 @@ Installing the template is easy, you don't really have to do much:
 
 ```bash
 django-admin.py startproject \
-  --template=https://github.com/skorokithakis/django-project-template/archive/master.zip \
+  --template=https://github.com/alexb7217/django-project-template/archive/master.zip \
   --extension py,cfg,yml,ini,toml \
   <project_name>
 ```
@@ -32,7 +32,6 @@ After installation, you need to change the following:
 
 * Run `poetry lock` to pin the packages to the latest versions.
 * Change this README.
-* Delete/change the `LICENSE` file.
 * Add your domain in `settings.py`'s `ALLOWED_HOSTS`.
 * Customize the `.env` file.
 * If you're using Dokku, add your domain name to `misc/dokku/CHECKS`.
@@ -72,6 +71,3 @@ variable names).
 
 You can also specify any secret keys or settings in a `local_settings.py`, which will override your `settings.py` variables. I usually use that for local development.
 
-## License
-
-Copyright © Stavros Korokithakis. Licensed under the [MIT license](/LICENSE).

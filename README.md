@@ -2,7 +2,7 @@
 
 This is a simple Django 2.0+ project template with my preferred setup. Most Django project templates make way too many
 assumptions or are just way too complicated. I try to make the least amount of assumptions possible while still trying
-provide a useful setup. Most of my projects are deployed to Heroku, so this is optimized for that but is not necessary.
+provide a useful setup. Most of my projects are deployed to Dokku/Herokuish, so this is optimized for that but is not necessary.
 
 ## Features
 
@@ -49,6 +49,7 @@ If you don't want to bother with `docker-compose` yet, you can run it locally:
 
 ```bash
 $ poetry install
+$ poetry shell
 $ ./manage.py migrate
 $ ./manage.py runserver_plus
 ```
